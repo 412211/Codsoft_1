@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO WEBSITE</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="portfolio-container">
+        <ul class="navlist">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skill">Skills</a></li>
+            <li><a href="#project">Projects</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+            
+        </ul>
+        <div class="left-container">
+            <div class="content">
+                <p class="intro">Hello! I'm <span>SUMIT</span></p>
+                
+                <p class="detail">Creating content to display my skills,passion,experiance.</p>
+                <h2>Web Developer</h2>
+            </div>
+          </div>  
+        <div class="design">
+            <div class="circle"></div>
+        </div>
+    </div>    
+<!-----------ABOUT------------>        
+    <section id="about">
+        <div class="about-img">
+            <img src="image/sumit1.jpg">
+        </div>
+        <div class="about-text">
+            <h1>"About Me"</h1>
+            <p class="detail">Innovative,Goal Achiever and focused front end Web Developer with 2 years of experience .I have advanced skills in html and css and am looking to apply my knowledge within a large, global organisation.</p>
+            <h2>Web Developer</h2>
+        </div>
+    </section>  
+    <!---------SKILLS----------->
+    <section id="skill">
+        <h1 style="font-size: 4rem;padding-bottom: 70px;display: flex;align-items: center;justify-content: center;">"My Skills"</h1>
+        <div class="skill-text">
+            <div class="left">
+                <h1> Technical Skills</h1>
+                <ul type="none">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>React</li>
+                    <li>Python</li>
+                </ul>
+            </div>
+            <div class="right">
+                <h1>Professional Skills</h1>
+                <ul type="none">
+                    <li>Creativity</li>
+                    <li>Communication</li>
+                    <li>Team Work</li>
+                    <li>Problem Solving</li>
+                    <li>Time Management</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!--------PROJECTS--------->
+    <section id="project">
+        <h1>"Projects"</h1>
+        <div class="project-content">
+        <div class="project1">
+            <img class="image" src="image/landingpage.png">
+            <h3 style="padding-right: 60px;">Landing Page</h3>
+            <p>I have created amazing landing page with the help of HTML and CSS. </p><br>
+            <a href="#" style="padding-right: 60px; padding-top: 20px;">View Project</a>
+        </div>
+        <div class="project2">
+            <img class="image" src="image/calculator.png">
+            <h3>Calculator</h3>
+            <p>I have created simple calculator with the help of HTML , CSS and JavaScript. </p><br>
+            <a href="#">View Project</a>
+        </div>
+        </div>
+    </section>
+    <!----------RESUME--------->
+    <section id="resume">
+        <h1 style="padding-bottom: 100px;">"Resume"</h1>
+        <div class="box">
+            <h1 style="font-size: 2.4rem;">Prajapati Sumit</h1>
+            <h2>Personal Details</h2>
+            <div class="detail-p">
+                <ul type="none" style="color: red;">
+                    <li>Name</li>
+                    <li>Email address</li>
+                    <li>Phone Number</li>
+                    <li>Address</li>
+                    <li>LinkedIn</li>
+                </ul>
+                <ul type="none">
+                    <li>Prajapati Sumit</li>
+                    <li>prajapatisumitkumar2003@gmail.com</li>
+                    <li>6351879155</li>
+                    <li>Gujarat,India</li>
+                    <li>linkedin</li>
+                </ul>
+                
+
+            </div>
+            <h2>Work Experience</h2>
+            <div class="detail-p">
+                <h3 style="color: red;">June 2024 - July 2024</h3>
+                <p><span>Web Developer Intern<br>Codsoft</span><br><br>Assisted in the development of potfolio websites using HTML and CSS.<br><br>
+                    Assisted in the development of Landing Page using HTML and CSS.<br><br>
+                    Assisted in the development of Calculator using HTML, CSS, and JavaScript.</p>
+            </div>
+            <h2>Education</h2>
+            <div class="detail-p">
+                <h3 style="color: red;">2021 - 2025</h3>
+                <p><span> Gujarat Power Engineering and Research Institute</span><br><br> Bachlelor of Engineering in Computer Engineering</p>
+            </div>
+        </div>
+    </section>
+    <!---------CONTACT--------->
+    <section id="contact">
+        <h2>Let's Chat.</h2>
+        <p>Won't hesitate to answer your questions.</p>
+        <div class="box1">
+            <form>
+                <h3>Send Message</h3>
+                <div class="content-c">Full Name <input type="text" required="required"></div>
+                <div class="content-c" >Email <input type="text" required="required"></div>
+                <div class="content-c">Type your message...<textarea required="required" ></textarea></div>
+                <div class="button">
+                    <button value="Send">Send</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="content-f">
+            <div class="f-content">
+                <h3>Contact Me</h3>
+                <p>Email:sumitprajapati2003@gmail.com</p>
+                <p>Phone Nmuber:6351879155</p>
+                <p>Gujarat,India</p>
+            </div>
+            <div class="f-content">
+                <h3>Follow Me</h3>
+                <ul class="social-icons" type="none">
+                    <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                    <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                    <li><a href=""><i class="fa fa-instagram"></i></a></li>
+                    <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="bottom-bar">
+            <p> &copy; All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
